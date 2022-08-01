@@ -4,10 +4,12 @@
 img{
     vertical-align: middle;
 }
+body{
+    line-height: 1.5;
+}
 .container{
     width: 1200px;
     margin: 0 auto;
-    /* margin-bottom: 48px; */
 }
 .mb-48{
     margin-bottom: 48px;
@@ -24,39 +26,29 @@ img{
 .pb-24{
     padding-bottom: 24px;
 }
-.pr-24{
-    padding-right: 24px;
-}
 h1{
     font-size: 80px;
     line-height: 95px;
 }
 h2{
     font-size: 32px;
-    line-height: 48px;
     font-weight: 500;
     padding-bottom: 7px;
     border-bottom: 1px solid #000;
 }
 h3{
     font-size: 24px;
-    line-height: 36px;
     font-weight: 500;
 }
 span{
     font-size: 24px;
-    line-height: 36px;
     color: #A00404;
     font-weight: 600;
     padding-left: 24px;
 }
-p{
+li{
     font-size: 24px;
-    line-height: 36px;
     font-weight: 300;
-}
-.text-center{
-    text-align: center;
 }
 .name{
     padding: 40px 0px 22px 0px;
@@ -78,8 +70,9 @@ p{
     color: #FFFFFF;
 }
 .skillsList{
+    width: 230px;
+    margin: 0 auto;
     padding: 40px 0px;
-    display: inline-block;
     text-align: left;
 }
 .skillsList li,.experienceList li{
@@ -89,11 +82,26 @@ p{
 .experienceList{
     padding:16px 0px 16px 24px;
 }
-.experience p{
+.experienceList p{
     font-size: 20px;
-    line-height: 30px;
 }
 .contactList{
     padding: 24px 0px 40px 0px;
     text-align: center;
+}
+.contactList a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contactList a:hover{
+    color: aqua;
+}
+.socialIcon{
+    width: 192px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.socialIcon img:hover{
+    width: 45px;
 }
